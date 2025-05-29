@@ -37,3 +37,17 @@ streamlit
 ultralytics
 pillow
 googletrans==4.0.0-rc1
+```
+
+## 4. Складання та запуск
+
+Для запуску застосунку необхідно виконати такі кроки:
+
+### 4.1 Клонування репозиторію
+
+Спочатку склонуйте репозиторій на свій локальний комп’ютер:
+
+```bash
+git clone https://github.com/your-username/Product-Recognition-YOLOv11.git
+cd Product-Recognition-YOLOv11
+```
