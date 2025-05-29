@@ -51,3 +51,9 @@ googletrans==4.0.0-rc1
 git clone https://github.com/your-username/Product-Recognition-YOLOv11.git
 cd Product-Recognition-YOLOv11
 ```
+### 4.2 Встановлення необхідних залежностей (пункт 3)
+
+### 4.3 Запуск локального сервера Streamlit
+  
+  streamlit run app.py
+
