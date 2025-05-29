@@ -25,8 +25,6 @@ Product-Recognition-YOLOv11/
 ├── convert_to_json.py          # Сценарій для конвертації рецептів у формат JSON
 ├── recipes.txt                 # База рецептів у текстовому форматі
 ├── recipes.json                # Рецепти у форматі JSON
-├── recipes example.json        # Приклад структури рецептів
-├── recipies example.json       # (Ймовірно, дублікат із помилкою в назві)
 ├── requirements.txt            # Список залежностей
 ├── runs/
 │   └── detect/
