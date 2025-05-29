@@ -16,7 +16,39 @@ A web application that implements an artificial intelligence method to automatic
 
 ---
 
-## 2. Функціональні можливості
+## 2. Структура проєкту
+
+```bash
+Product-Recognition-YOLOv11/
+├── app.py                      # Головний файл Streamlit-додатку
+├── best.pt                     # Попередньо навчена модель YOLO
+├── convert_to_json.py          # Сценарій для конвертації рецептів у формат JSON
+├── recipes.txt                 # База рецептів у текстовому форматі
+├── recipes.json                # Рецепти у форматі JSON
+├── recipes example.json        # Приклад структури рецептів
+├── recipies example.json       # (Ймовірно, дублікат із помилкою в назві)
+├── requirements.txt            # Список залежностей
+├── runs/
+│   └── detect/
+│       ├── predict/
+│       │   └── temp_image_1748496789.jpg     # Зображення з розпізнавання
+│       └── val/
+│           ├── val_batch0_labels.jpg
+│           ├── val_batch0_pred.jpg
+│           ├── val_batch1_labels.jpg
+│           ├── val_batch1_pred.jpg
+│           ├── val_batch2_labels.jpg
+│           └── val_batch2_pred.jpg
+└── saved_images/
+    ├── original/
+    │   └── 1748496600.jpg      # Завантажене зображення
+    └── processed/
+        └── 1748496600.jpg      # Оброблене зображення з розміткою
+```
+
+---
+
+## 3. Функціональні можливості
 
 Метод реалізує функціонал, що включає:
 
@@ -28,7 +60,7 @@ A web application that implements an artificial intelligence method to automatic
 
 ---
 
-## 3. Вимоги
+## 4. Вимоги
 
 Для запуску проєкту необхідні такі залежності:
 
@@ -39,11 +71,11 @@ pillow
 googletrans==4.0.0-rc1
 ```
 
-## 4. Складання та запуск
+## 5. Складання та запуск
 
 Для запуску застосунку необхідно виконати такі кроки:
 
-### 4.1 Клонування репозиторію
+### 5.1 Клонування репозиторію
 
 Спочатку склонуйте репозиторій на свій локальний комп’ютер:
 
@@ -51,9 +83,9 @@ googletrans==4.0.0-rc1
 git clone https://github.com/your-username/Product-Recognition-YOLOv11.git
 cd Product-Recognition-YOLOv11
 ```
-### 4.2 Встановлення необхідних залежностей (пункт 3)
+### 5.2 Встановлення необхідних залежностей (пункт 3)
 
-### 4.3 Запуск локального сервера Streamlit  
+### 5.3 Запуск локального сервера Streamlit  
 
 ```bash
   streamlit run app.py
