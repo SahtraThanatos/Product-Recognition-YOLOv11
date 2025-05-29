@@ -53,7 +53,9 @@ cd Product-Recognition-YOLOv11
 ```
 ### 4.2 Встановлення необхідних залежностей (пункт 3)
 
-### 4.3 Запуск локального сервера Streamlit
-  
+### 4.3 Запуск локального сервера Streamlit  
+
+```bash
   streamlit run app.py
+```
 
